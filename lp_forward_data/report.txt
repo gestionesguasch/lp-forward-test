@@ -1,0 +1,42 @@
+PRUEBA EN VIVO DE LP  |  20/11/2026 12:13  |  0.00 dias de datos  |  1 lecturas  |  huecos: 0
+Capital virtual por estrategia: 1000 $. Anualizado solo a partir de 1 dia (con pocos dias exagera mucho: mira tambien el %).
+
+== BASE_ETH_0.30  precio 1,731.23 (+0.0% desde el inicio)  |  mitad/mitad: 1,000 $ (+0.0%)
+    rango     regla | en rango reaj   comis.  costes |          SIN cobertura |          CON cobertura  funding
+   +-  5% inmediato |     100%    0    0.00$   1.88$ |    998.3$  -0.17%    -    |    998.1$  -0.19%    -      +0.00$
+   +-  5%   tras24h |     100%    0    0.00$   1.88$ |    998.3$  -0.17%    -    |    998.1$  -0.19%    -      +0.00$
+   +- 10% inmediato |     100%    0    0.00$   1.88$ |    998.3$  -0.17%    -    |    998.1$  -0.19%    -      +0.00$
+   +- 10%   tras24h |     100%    0    0.00$   1.88$ |    998.3$  -0.17%    -    |    998.1$  -0.19%    -      +0.00$
+   +- 20% inmediato |     100%    0    0.00$   1.88$ |    998.3$  -0.17%    -    |    998.1$  -0.19%    -      +0.00$
+   +- 20%   tras24h |     100%    0    0.00$   1.88$ |    998.3$  -0.17%    -    |    998.1$  -0.19%    -      +0.00$
+
+== BASE_ETH_0.05  precio 1,730.67 (+0.0% desde el inicio)  |  mitad/mitad: 1,000 $ (+0.0%)
+    rango     regla | en rango reaj   comis.  costes |          SIN cobertura |          CON cobertura  funding
+   +-  5% inmediato |     100%    0    0.00$   0.63$ |    999.6$  -0.04%    -    |    999.4$  -0.06%    -      +0.00$
+   +-  5%   tras24h |     100%    0    0.00$   0.63$ |    999.6$  -0.04%    -    |    999.4$  -0.06%    -      +0.00$
+   +- 10% inmediato |     100%    0    0.00$   0.62$ |    999.6$  -0.04%    -    |    999.4$  -0.06%    -      +0.00$
+   +- 10%   tras24h |     100%    0    0.00$   0.62$ |    999.6$  -0.04%    -    |    999.4$  -0.06%    -      +0.00$
+   +- 20% inmediato |     100%    0    0.00$   0.62$ |    999.6$  -0.04%    -    |    999.4$  -0.06%    -      +0.00$
+   +- 20%   tras24h |     100%    0    0.00$   0.62$ |    999.6$  -0.04%    -    |    999.4$  -0.06%    -      +0.00$
+
+== ARB_ETH_0.05  precio 1,730.73 (+0.0% desde el inicio)  |  mitad/mitad: 1,000 $ (+0.0%)
+    rango     regla | en rango reaj   comis.  costes |          SIN cobertura |          CON cobertura  funding
+   +-  5% inmediato |     100%    0    0.00$   0.68$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+   +-  5%   tras24h |     100%    0    0.00$   0.68$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+   +- 10% inmediato |     100%    0    0.00$   0.67$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+   +- 10%   tras24h |     100%    0    0.00$   0.67$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+   +- 20% inmediato |     100%    0    0.00$   0.67$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+   +- 20%   tras24h |     100%    0    0.00$   0.67$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+
+== ARB_BTC_0.05  precio 61,415.76 (+0.0% desde el inicio)  |  mitad/mitad: 1,000 $ (+0.0%)
+    rango     regla | en rango reaj   comis.  costes |          SIN cobertura |          CON cobertura  funding
+   +-  5% inmediato |     100%    0    0.00$   0.67$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+   +-  5%   tras24h |     100%    0    0.00$   0.67$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+   +- 10% inmediato |     100%    0    0.00$   0.67$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+   +- 10%   tras24h |     100%    0    0.00$   0.67$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+   +- 20% inmediato |     100%    0    0.00$   0.67$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+   +- 20%   tras24h |     100%    0    0.00$   0.67$ |    999.5$  -0.05%    -    |    999.3$  -0.07%    -      +0.00$
+
+Como leerlo: 'comis.' = comisiones reales cobradas; 'CON cobertura' = LP + corto en Hyperliquid
+(quita la direccion del precio; necesitarias ~30 % extra de margen para el corto).
+Lo que buscamos: CON cobertura positivo y estable durante 2-3 semanas.
