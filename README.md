@@ -1,58 +1,58 @@
 # Prueba en vivo de LP concentrado
 
-**Actualizado:** 27/11/2026 23:42 UTC · **7.5 días de datos** · 25 lecturas · huecos: 92
+**Actualizado:** 28/11/2026 05:00 UTC · **7.7 días de datos** · 26 lecturas · huecos: 96
 
 Cada ~5 min GitHub lee de la blockchain las comisiones reales de 4 pools de Uniswap v3 y simula posiciones virtuales de 1000 $ (no se mueve dinero). **SIN cobertura** = solo el LP. **CON cobertura** = LP + corto en Hyperliquid del mismo tamaño (quita la direccion del precio, incluye funding real; haría falta ~30 % extra de margen).
 
 Lo que buscamos: **CON cobertura positivo y estable durante 2-3 semanas.** El anualizado solo aparece a partir de 1 día y con pocos dias exagera: fíjate tambien en el %.
 
 ## BASE ETH 0.30
-Precio 1,658.23 (-4.2% desde el inicio) · mitad/mitad sin LP: -2.11%
+Precio 1,665.01 (-3.8% desde el inicio) · mitad/mitad sin LP: -1.91%
 
 | Rango | Reajuste | En rango | Reajustes | Comisiones | SIN cobertura | CON cobertura |
 |---|---|---|---|---|---|---|
-| ±5% | al salir | 96% | 2 | 46.06 $ | -1.95% (-62%/año) | -1.61% (-55%/año) |
-| ±5% | tras 24 h | 83% | 0 | 33.49 $ | +0.16% (+8%/año) | -2.11% (-65%/año) |
-| ±10% | al salir | 100% | 0 | 26.81 $ | -0.07% (-3%/año) | -0.91% (-36%/año) |
-| ±10% | tras 24 h | 100% | 0 | 26.81 $ | -0.07% (-3%/año) | -0.91% (-36%/año) |
-| ±20% | al salir | 100% | 0 | 14.81 $ | -1.05% (-40%/año) | -0.56% (-24%/año) |
-| ±20% | tras 24 h | 100% | 0 | 14.81 $ | -1.05% (-40%/año) | -0.56% (-24%/año) |
+| ±5% | al salir | 96% | 2 | 46.19 $ | -1.68% (-55%/año) | -1.60% (-53%/año) |
+| ±5% | tras 24 h | 84% | 0 | 33.62 $ | +0.53% (+29%/año) | -2.10% (-63%/año) |
+| ±10% | al salir | 100% | 0 | 26.88 $ | +0.22% (+11%/año) | -0.91% (-35%/año) |
+| ±10% | tras 24 h | 100% | 0 | 26.88 $ | +0.22% (+11%/año) | -0.91% (-35%/año) |
+| ±20% | al salir | 100% | 0 | 14.85 $ | -0.81% (-32%/año) | -0.56% (-23%/año) |
+| ±20% | tras 24 h | 100% | 0 | 14.85 $ | -0.81% (-32%/año) | -0.56% (-23%/año) |
 
 ## BASE ETH 0.05
-Precio 1,658.76 (-4.2% desde el inicio) · mitad/mitad sin LP: -2.08%
+Precio 1,661.01 (-4.0% desde el inicio) · mitad/mitad sin LP: -2.01%
 
 | Rango | Reajuste | En rango | Reajustes | Comisiones | SIN cobertura | CON cobertura |
 |---|---|---|---|---|---|---|
-| ±5% | al salir | 96% | 2 | 43.41 $ | -1.84% (-60%/año) | -1.92% (-61%/año) |
-| ±5% | tras 24 h | 83% | 0 | 32.53 $ | +0.22% (+12%/año) | -2.36% (-69%/año) |
-| ±10% | al salir | 100% | 0 | 25.64 $ | -0.02% (-1%/año) | -1.18% (-44%/año) |
-| ±10% | tras 24 h | 100% | 0 | 25.64 $ | -0.02% (-1%/año) | -1.18% (-44%/año) |
-| ±20% | al salir | 100% | 0 | 13.74 $ | -0.99% (-39%/año) | -0.58% (-25%/año) |
-| ±20% | tras 24 h | 100% | 0 | 13.74 $ | -0.99% (-39%/año) | -0.58% (-25%/año) |
+| ±5% | al salir | 96% | 2 | 43.58 $ | -1.74% (-56%/año) | -1.91% (-60%/año) |
+| ±5% | tras 24 h | 84% | 0 | 32.71 $ | +0.36% (+19%/año) | -2.34% (-68%/año) |
+| ±10% | al salir | 100% | 0 | 25.73 $ | +0.09% (+4%/año) | -1.17% (-43%/año) |
+| ±10% | tras 24 h | 100% | 0 | 25.73 $ | +0.09% (+4%/año) | -1.17% (-43%/año) |
+| ±20% | al salir | 100% | 0 | 13.79 $ | -0.91% (-35%/año) | -0.58% (-24%/año) |
+| ±20% | tras 24 h | 100% | 0 | 13.79 $ | -0.91% (-35%/año) | -0.58% (-24%/año) |
 
 ## ARB ETH 0.05
-Precio 1,658.71 (-4.2% desde el inicio) · mitad/mitad sin LP: -2.08%
+Precio 1,660.93 (-4.0% desde el inicio) · mitad/mitad sin LP: -2.02%
 
 | Rango | Reajuste | En rango | Reajustes | Comisiones | SIN cobertura | CON cobertura |
 |---|---|---|---|---|---|---|
-| ±5% | al salir | 96% | 2 | 44.36 $ | -1.76% (-58%/año) | -1.85% (-60%/año) |
-| ±5% | tras 24 h | 83% | 0 | 33.94 $ | +0.36% (+19%/año) | -2.24% (-67%/año) |
-| ±10% | al salir | 100% | 0 | 26.10 $ | +0.02% (+1%/año) | -1.14% (-43%/año) |
-| ±10% | tras 24 h | 100% | 0 | 26.10 $ | +0.02% (+1%/año) | -1.14% (-43%/año) |
-| ±20% | al salir | 100% | 0 | 13.99 $ | -0.98% (-38%/año) | -0.56% (-24%/año) |
-| ±20% | tras 24 h | 100% | 0 | 13.99 $ | -0.98% (-38%/año) | -0.56% (-24%/año) |
+| ±5% | al salir | 96% | 2 | 44.52 $ | -1.67% (-55%/año) | -1.84% (-58%/año) |
+| ±5% | tras 24 h | 84% | 0 | 34.10 $ | +0.49% (+26%/año) | -2.22% (-66%/año) |
+| ±10% | al salir | 100% | 0 | 26.19 $ | +0.12% (+6%/año) | -1.14% (-42%/año) |
+| ±10% | tras 24 h | 100% | 0 | 26.19 $ | +0.12% (+6%/año) | -1.14% (-42%/año) |
+| ±20% | al salir | 100% | 0 | 14.04 $ | -0.89% (-35%/año) | -0.56% (-23%/año) |
+| ±20% | tras 24 h | 100% | 0 | 14.04 $ | -0.89% (-35%/año) | -0.56% (-23%/año) |
 
 ## ARB BTC 0.05
-Precio 59,858.62 (-2.5% desde el inicio) · mitad/mitad sin LP: -1.27%
+Precio 59,987.33 (-2.3% desde el inicio) · mitad/mitad sin LP: -1.16%
 
 | Rango | Reajuste | En rango | Reajustes | Comisiones | SIN cobertura | CON cobertura |
 |---|---|---|---|---|---|---|
-| ±5% | al salir | 96% | 2 | 28.42 $ | -1.81% (-59%/año) | -1.46% (-51%/año) |
-| ±5% | tras 24 h | 87% | 0 | 23.34 $ | +0.69% (+40%/año) | -1.53% (-53%/año) |
-| ±10% | al salir | 100% | 0 | 16.04 $ | +0.12% (+6%/año) | -0.70% (-29%/año) |
-| ±10% | tras 24 h | 100% | 0 | 16.04 $ | +0.12% (+6%/año) | -0.70% (-29%/año) |
-| ±20% | al salir | 100% | 0 | 8.58 $ | -0.55% (-24%/año) | -0.24% (-11%/año) |
-| ±20% | tras 24 h | 100% | 0 | 8.58 $ | -0.55% (-24%/año) | -0.24% (-11%/año) |
+| ±5% | al salir | 96% | 2 | 28.53 $ | -1.63% (-54%/año) | -1.46% (-50%/año) |
+| ±5% | tras 24 h | 87% | 0 | 23.46 $ | +0.86% (+50%/año) | -1.52% (-52%/año) |
+| ±10% | al salir | 100% | 0 | 16.10 $ | +0.26% (+13%/año) | -0.70% (-28%/año) |
+| ±10% | tras 24 h | 100% | 0 | 16.10 $ | +0.26% (+13%/año) | -0.70% (-28%/año) |
+| ±20% | al salir | 100% | 0 | 8.61 $ | -0.42% (-18%/año) | -0.23% (-11%/año) |
+| ±20% | tras 24 h | 100% | 0 | 8.61 $ | -0.42% (-18%/año) | -0.23% (-11%/año) |
 
 ---
 Datos: `lp_forward_data/` (samples.csv cada lectura, snapshots.csv cada hora, state.json). Código: `lp_forward_test.py`. Se ejecuta solo con GitHub Actions (`.github/workflows/lp.yml`).
